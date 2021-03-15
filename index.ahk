@@ -6,7 +6,7 @@ submitAction = $('button[type="submit"]').trigger('click');
 
 executeFirefox(url){
    Run firefox.exe %url%
-   Sleep, 8000
+   Sleep, 5000
 }
 
 executeConnexion(login,pass,submitAction){
@@ -23,6 +23,4 @@ executeConnexion(login,pass,submitAction){
 executeFirefox(url)
 executeConnexion(login,pass,submitAction)
 
-Escape::
-ExitApp
 Return
